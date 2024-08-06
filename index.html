@@ -7,7 +7,7 @@
     <!--=============== FAVICON ===============-->
     <link
       rel="shortcut icon"
-      href="assets/img/squares.png"
+      href="assets/img/square.png"
       type="image/x-icon"
     />
 
@@ -18,7 +18,7 @@
     />
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!--=============== STYLES CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -52,7 +52,7 @@
             </li>
 
             <li class="nav__item">
-              <a href="#project" class="nav__link">
+              <a href="#projects" class="nav__link">
                 <i class="bx bx-briefcase"></i>
               </a>
             </li>
@@ -85,8 +85,8 @@
                 download=""
                 href="assets/pdf/Kilas-Cv.pdf"
                 class="button button--ghost"
-                >Download CV</a
-              >
+                >Download CV
+              </a>
               <a href="#about" class="button">About Me</a>
             </div>
           </div>
@@ -154,18 +154,312 @@
             </div>
 
             <p class="about__description">
-              Junior Frontend Developer, I create web pages with UI / UX user
-              interface. I'm a student and have just finished a personal website
-              project.
+              I am a student who has just started my journey as a Frontend
+              Developer. I create web pages with HTML for structuring, CSS for
+              layouting, and JavaScript for interactive.
             </p>
 
-            <a href="#contact" class="button">Contact Me</a>
+            <a href="#contact" class="button"
+              >Contact Me <i class="bx bxs-chat"></i
+            ></a>
           </div>
         </div>
       </section>
 
       <!--=============== SKILLS ===============-->
-      <section class="skills section" id="skills"></section>
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">My Skills</span>
+        <h2 class="section__title">My Abilities</h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">Frontend Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Bootstrap</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PROJECTS ===============-->
+      <section class="projects section" id="projects">
+        <span class="section__subtitle">My Project</span>
+        <h2 class="section__title">Recent Works</h2>
+
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">All</span>
+          <span class="work__item" data-filter=".web">Web</span>
+          <span class="work__item" data-filter=".blog">Blog</span>
+          <span class="work__item" data-filter=".design">Design</span>
+        </div>
+
+        <div class="work__container container grid">
+          <div class="work__card mix web">
+            <img src="assets/img/work1.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">Web Design</h3>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix blog">
+            <img src="assets/img/work2.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">No project yet</h3>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix design">
+            <img src="assets/img/work3.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">No project yet</h3>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix web">
+            <img src="assets/img/work4.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">No project yet</h3>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix blog">
+            <img src="assets/img/work5.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">No project yet</h3>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== CONTENT ===============-->
+      <section class="content section">
+        <span class="section__subtitle">My Content</span>
+        <h2 class="section__title">Personal Website</h2>
+
+        <div class="content__container container swiper">
+          <div class="swiper-wrapper">
+            <div class="content__card swiper-slide">
+              <img
+                src="assets/img/ac-origins.png"
+                alt=""
+                class="content__img"
+              />
+
+              <h3 class="content__name">Assassin's Creed Origins</h3>
+              <p class="content__description">
+                Assassin's Creed Origins is a 2017 action role-playing video
+                game developed by Ubisoft Montreal and published by Ubisoft.
+              </p>
+            </div>
+
+            <div class="content__card swiper-slide">
+              <img src="assets/img/days-gone.png" alt="" class="content__img" />
+
+              <h3 class="content__name">Days Gone</h3>
+              <p class="content__description">
+                Days Gone is a 2019 action-adventure video game developed by
+                Bend Studio and published by Sony Interactive Entertainment.
+              </p>
+            </div>
+
+            <div class="content__card swiper-slide">
+              <img
+                src="assets/img/dying-light.png"
+                alt=""
+                class="content__img"
+              />
+
+              <h3 class="content__name">Dying Light</h3>
+              <p class="content__description">
+                Dying Light is a 2015 survival horror video game developed by
+                Techland and published by Warner Bros. Interactive
+                Entertainment.
+              </p>
+            </div>
+
+            <div class="content__card swiper-slide">
+              <img src="assets/img/far-cry-5.png" alt="" class="content__img" />
+
+              <h3 class="content__name">Far Cry 5</h3>
+              <p class="content__description">
+                Far Cry 5 is a 2018 first-person shooter, developed by Ubisoft
+                Montreal and Ubisoft Toronto and published by Ubisoft.
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Get In Touch</span>
+        <h2 class="section__title">Contact Me</h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title">Talk to me</h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-mail-send contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data">iswarol17@gmail.com</span>
+
+                <a
+                  href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=iswarol17@gmail.com"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-whatsapp contact__card-icon"></i>
+                <h3 class="contact__card-title">Whatsapp</h3>
+                <span class="contact__card-data">+62 877-1407-3834</span>
+
+                <a
+                  href="https://wa.me/6287714073834"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-telegram contact__card-icon"></i>
+                <h3 class="contact__card-title">Telegram</h3>
+                <span class="contact__card-data">+62 877 14073834</span>
+
+                <a
+                  href="https://t.me/i_kiylacs"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title">Write me your project</h3>
+
+            <form action="" class="contact__form">
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Name</label>
+                <input
+                  type="text"
+                  placeholder="Insert your name"
+                  class="contact__form-input"
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Email</label>
+                <input
+                  type="email"
+                  placeholder="Insert your email"
+                  class="contact__form-input"
+                />
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label for="" class="contact__form-tag">Message</label>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Write your project"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+
+              <button class="button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--=============== FOOTER ===============-->
@@ -175,10 +469,10 @@
     <script src=""></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== MIXITUP FILTER ===============-->
-    <script src=""></script>
+    <script src="assets/js/mixitup.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
