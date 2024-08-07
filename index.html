@@ -29,7 +29,7 @@
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo">Kilas</a>
+        <a href="#" class="nav__logo">Kiylacs</a>
 
         <div class="nav__menu">
           <ul class="nav__list">
@@ -102,15 +102,21 @@
           <div class="home__social">
             <a
               href="https://www.linkedin.com/in/muhammad-iswarol-kiylacs/"
+              target="_blank"
               class="home__social-link"
             >
               <i class="bx bxl-linkedin-square"></i>
             </a>
-            <a href="https://github.com/i-kiylacs/" class="home__social-link">
+            <a
+              href="https://github.com/i-kiylacs/"
+              target="_blank"
+              class="home__social-link"
+            >
               <i class="bx bxl-github"></i>
             </a>
             <a
               href="https://www.instagram.com/i.kiylacs/"
+              target="_blank"
               class="home__social-link"
             >
               <i class="bx bxl-instagram"></i>
@@ -371,7 +377,7 @@
 
         <div class="contact__container container grid">
           <div class="contact__content">
-            <h3 class="contact__title">Talk to me</h3>
+            <h3 class="contact__title">Talk To Me</h3>
 
             <div class="contact__info">
               <div class="contact__card">
@@ -384,7 +390,7 @@
                   target="_blank"
                   class="contact__button"
                 >
-                  Write me
+                  Send me a message
                   <i class="bx bx-right-arrow-alt contact__button-icon"></i>
                 </a>
               </div>
@@ -399,7 +405,7 @@
                   target="_blank"
                   class="contact__button"
                 >
-                  Write me
+                  Send me a message
                   <i class="bx bx-right-arrow-alt contact__button-icon"></i>
                 </a>
               </div>
@@ -414,7 +420,7 @@
                   target="_blank"
                   class="contact__button"
                 >
-                  Write me
+                  Send me a message
                   <i class="bx bx-right-arrow-alt contact__button-icon"></i>
                 </a>
               </div>
@@ -422,40 +428,43 @@
           </div>
 
           <div class="contact__content">
-            <h3 class="contact__title">Write me your project</h3>
+            <h3 class="contact__title">Write Me Your Project</h3>
 
-            <form action="" class="contact__form">
+            <form action="" class="contact__form" id="contact-form">
               <div class="contact__form-div">
-                <label for="" class="contact__form-tag">Name</label>
+                <label class="contact__form-tag">Name</label>
                 <input
                   type="text"
-                  placeholder="Insert your name"
+                  name="user_name"
+                  placeholder="Your name"
+                  required
                   class="contact__form-input"
                 />
               </div>
 
               <div class="contact__form-div">
-                <label for="" class="contact__form-tag">Email</label>
+                <label class="contact__form-tag">Email</label>
                 <input
                   type="email"
-                  placeholder="Insert your email"
+                  name="user_email"
+                  placeholder="someone@gmail.com"
+                  required
                   class="contact__form-input"
                 />
               </div>
 
               <div class="contact__form-div contact__form-area">
-                <label for="" class="contact__form-tag">Message</label>
+                <label class="contact__form-tag">Message</label>
                 <textarea
-                  name=""
-                  id=""
-                  cols="30"
-                  rows="10"
+                  name="user_message"
                   placeholder="Write your project"
+                  required
                   class="contact__form-input"
                 ></textarea>
               </div>
 
-              <button class="button">Send Message</button>
+              <button type="submit" class="button">Send Message</button>
+              <p class="contact__message" id="contact-message"></p>
             </form>
           </div>
         </div>
@@ -463,16 +472,63 @@
     </main>
 
     <!--=============== FOOTER ===============-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Kiylacs</h1>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">Contact</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a
+            href="https://www.facebook.com/profile.php?id=61557282838776&mibextid=ZbWKwL"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/i.kiylacs/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a
+            href="https://x.com/i_kiylacs/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-twitter"></i>
+          </a>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; Created by Muhammad Iswarol Kiylacs. All rights reserved
+        </span>
+      </div>
+    </footer>
 
     <!--=============== SCROLLREVEAL ===============-->
-    <script src=""></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
 
     <!--=============== SWIPER JS ===============-->
     <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== MIXITUP FILTER ===============-->
     <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
